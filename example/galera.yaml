@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: ausov/k8s-mariadb-cluster
+        image: rmiddle/k8s-mariadb-cluster
         ports:
         - containerPort: 3306
           name: mysql
