@@ -9,7 +9,8 @@ RUN set -x && \
     \
     apt-get purge -y --auto-remove ca-certificates wget
 
-ADD ["galera/", "/opt/galera/"]
+COPY ["my.cnf", "/etc/mysql/"]
+COPY ["galera/", "/opt/galera/"]
 
 RUN set -x && \
     cd /opt/galera && chmod +x on-start.sh galera-recovery.sh

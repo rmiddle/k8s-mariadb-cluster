@@ -6,7 +6,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   capacity:
-    storage: 2Gi
+    storage: 100Gi
   hostPath:
     path: /data/datadir-mysql-0/
 ---
@@ -18,7 +18,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   capacity:
-    storage: 2Gi
+    storage: 100Gi
   hostPath:
     path: /data/datadir-mysql-1/
 ---
@@ -30,6 +30,6 @@ spec:
   accessModes:
     - ReadWriteOnce
   capacity:
-    storage: 2Gi
+    storage: 100Gi
   hostPath:
     path: /data/datadir-mysql-2/
