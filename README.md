@@ -20,4 +20,4 @@ Additional variables:
 [peer-finder]: https://github.com/kubernetes/contrib/blob/master/pets/peer-finder/peer-finder.go
 [mariadb-image]: https://hub.docker.com/_/mariadb/
 
-Based on https://github.com/ausov/k8s-mariadb-cluster I clone and rebuilt just to make sure they was no funny bussiness in his build.
+Based on https://github.com/ausov/k8s-mariadb-cluster I cloned and rebuilt just to make sure their was no funny bussiness in the orginal build.
